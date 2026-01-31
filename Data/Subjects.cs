@@ -1,0 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
+public class Subjects
+{
+    [Key]
+    public int SubjectID { get; set; }
+
+    public required string SubjectName { get; set; }
+    public required string SubjectCode { get; set; }
+}
