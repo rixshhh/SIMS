@@ -256,6 +256,9 @@ while (true)
             Console.WriteLine("==================================================");
             break;
 
+        case "7":
+        
+        break;
         default:
             Console.WriteLine("Invalid choice. Please select a valid option.");
             break;
