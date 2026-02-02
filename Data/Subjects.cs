@@ -7,4 +7,5 @@ public class Subjects
 
     public required string SubjectName { get; set; }
     public required string SubjectCode { get; set; }
+    public int CourseID { get; set;}
 }
